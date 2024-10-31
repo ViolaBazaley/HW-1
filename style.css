@@ -150,6 +150,112 @@ body {
   padding-right: calc(50% - 600px);
 }
 
+.mini__games {
+  background: rgb(32, 32, 39);
+  background-image: url(./img/Star6.png);
+  background-position: 1600px 155px;
+  background-size: auto;
+  background-repeat: no-repeat;
+}
+
+.mini__games__header {
+  color: rgb(255, 255, 255);
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 78px;
+  letter-spacing: 0px;
+  text-align: left;
+  padding-bottom: 72px;
+  padding-top: 96px;
+}
+
+.mini__catalog {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.mini__numbergame {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color: white;
+  border-radius: 30px;
+  margin-bottom: 32px;
+}
+
+.mini__header {
+  color: rgb(32, 32, 39);
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 59px;
+  letter-spacing: 0px;
+  text-align: left;
+  max-width: 504px;
+  padding-bottom: 24px;
+}
+
+.mini__paragraph {
+  color: rgb(32, 32, 39);
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0px;
+  text-align: left;
+  max-width: 497px;
+  padding-bottom: 36px;
+}
+
+.mini__button {
+  border-radius: 60px;
+  background: rgb(32, 32, 39);
+  color: rgb(255, 255, 255);
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 141.69%;
+  letter-spacing: 0%;
+  text-align: center;
+  width: 247px;
+  height: 66px;
+}
+
+.mini__button:hover {
+  box-sizing: border-box;
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 60px;
+  background: rgb(255, 255, 255);
+  color: rgb(32, 32, 39);
+}
+
+.mini__description {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding: 48px;
+  max-width: 600px;
+}
+
+.mini__game_img {
+  height: 100%;
+}
+
+.footer__games {
+  background: rgb(189, 237, 53);
+  height: 150px;
+  margin-top: 144px;
+}
+
+.footer__text {
+  color: rgb(0, 0, 0);
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 29px;
+  letter-spacing: 0px;
+  text-align: center;
+  padding-top: 61px;
+}
+
 @media (max-width: 767px) {
   .center {
     padding-left: 16px;
