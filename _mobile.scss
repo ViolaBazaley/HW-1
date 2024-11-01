@@ -1,1 +1,47 @@
 
+@media (max-width: 767px) {
+    .center {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .header__title {
+        font-size: 40px;
+        line-height: 49px;
+        text-align: center;
+    }
+
+    .games {
+        display: none;
+    }
+
+    .header__text {
+        color: rgb(32, 32, 39);
+        font-size: 16px;
+        line-height: 20px;
+        text-align: center;
+    }
+
+    .header__button {
+        font-size: 16px;  
+        margin-top: 36px;
+        width: 285px;
+        height: 55px;
+        margin-left: 45px;
+        margin-bottom: 151px;
+
+    }
+
+    .header__ribbon {
+        height: 51px;
+    }
+
+    .header {
+        background: rgb(225, 255, 143);
+        background-image: url(./img/zvezdamobile.png);
+        background-size: auto;
+        background-repeat: no-repeat;
+        background-position: 250px -80px;
+    }
+}
+
