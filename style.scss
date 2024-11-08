@@ -178,9 +178,10 @@ body {
     background-position: 1600px 155px;
     background-size: auto;
     background-repeat: no-repeat;
+    padding-bottom: 144px;
 }
 
-.mini__games__header {
+.mini__games_header {
     color: rgb(255, 255, 255);
     font-size: 64px;
     font-weight: 700;
@@ -261,14 +262,14 @@ body {
     max-width: 600px;
 }
 
-.mini__game_img {
+.mini__img {
    height: 100%;
 }
 
 .footer__games {
     background: rgb(189, 237, 53);
     height: 150px;
-    margin-top: 144px;
+   
 }
 
 .footer__text {
