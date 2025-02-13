@@ -368,236 +368,142 @@
 // console.log(minNumber);
 
 
-// //ДЗ №5 ФУНКЦИИ
-// // Задание 1
+//ДЗ №5 ФУНКЦИИ
+// Задание 1
 
-// // function min(a, b) {
-// //    if (a < b) {
-// //     return a;
+// function min(a, b) {
+//    if (a < b) {
+//     return a;
     
-// //    } else {
-// //     return b;
-// //    }
-// // }
+//    } else {
+//     return b;
+//    }
+// }
 
-// // console.log(min(8, 4));
-// // console.log(min(6, 6));
-
-// const min = (a, b) => (a < b) ? a : b 
-    
 // console.log(min(8, 4));
 // console.log(min(6, 6));
 
-// // Задание 2
-// // function evenNumber(n) {
-// //     if (n % 2 == 0) {
-// //         return 'Число четное';
-// //     } else {
-// //         return 'Число нечетное';
+const min = (a, b) => (a < b) ? a : b 
+    
+console.log(min(8, 4));
+console.log(min(6, 6));
+
+// Задание 2
+// function evenNumber(n) {
+//     if (n % 2 == 0) {
+//         return 'Число четное';
+//     } else {
+//         return 'Число нечетное';
         
-// //     }
+//     }
     
-// // }
+// }
 
-// // console.log(evenNumber(17));
-// // console.log(evenNumber(18));
-
-// const evenNumber = (n) => (n % 2 == 0) ? 'Число четное' : 'Число нечетное'
-    
-// console.log(evenNumber(12));
 // console.log(evenNumber(17));
+// console.log(evenNumber(18));
 
-// // Задание 3
-// function square(number) {
-//     console.log(number ** 2);
+const evenNumber = (n) => (n % 2 == 0) ? 'Число четное' : 'Число нечетное'
     
-// }
+console.log(evenNumber(12));
+console.log(evenNumber(17));
 
-// const up = (k) => k ** 2;
-
-// square(10);
-// console.log(up(4));
-
-
-// // Задание 4
-
-// function age(question) {
-//     let userAnswer = +prompt(question);
-
-
-//     if (userAnswer <  0) {
-//         alert('Вы ввели неправильное значение');
-        
-        
-//     } else if (userAnswer <  12){
-//         alert('Привет, друг!');
-        
-        
-//     } else if (userAnswer >= 13) {
-//         alert('Добро пожаловать!');
-        
-        
-//     } else {
-//         alert('Вы ввели неправильное значение')
-//     }
+// Задание 3
+function square(number) {
+    console.log(number ** 2);
     
-// }
-// age('Сколько Вам лет?');
+}
 
-// // Задание 5
-// function calc(c, d) {
-//     console.log(isNaN(c));
-//     console.log(isNaN(d));
+const up = (k) => k ** 2;
+
+square(10);
+console.log(up(4));
+
+
+// Задание 4
+
+function age(question) {
+    let userAnswer = +prompt(question);
+
+
+    if (userAnswer <  0) {
+        alert('Вы ввели неправильное значение');
+        
+        
+    } else if (userAnswer <  12){
+        alert('Привет, друг!');
+        
+        
+    } else if (userAnswer >= 13) {
+        alert('Добро пожаловать!');
+        
+        
+    } else {
+        alert('Вы ввели неправильное значение')
+    }
     
-//   if (isNaN(c) || isNaN(d)) {
-//     return 'Одно или оба значения не являются числом';
-//   } else {
-//     return c * d;
-//   }    
-// }
+}
+age('Сколько Вам лет?');
 
-// console.log(calc(8, 'go'));
+// Задание 5
+function calc(c, d) {
+    console.log(isNaN(c));
+    console.log(isNaN(d));
+    
+  if (isNaN(c) || isNaN(d)) {
+    return 'Одно или оба значения не являются числом';
+  } else {
+    return c * d;
+  }    
+}
+
+console.log(calc(8, 'go'));
  
-// // Задание 6
+// Задание 6
 
-// function cubeNumber() {
-//     let number = prompt('Введите число');
-//     if (isNaN(number)) {
-//         return 'Переданный параметр не является числом';
-//     } else {
-//         return `${number} в кубе равняется ${number ** 3}`;
-//     }
-// }
+function cubeNumber() {
+    let number = prompt('Введите число');
+    if (isNaN(number)) {
+        return 'Переданный параметр не является числом';
+    } else {
+        return `${number} в кубе равняется ${number ** 3}`;
+    }
+}
 
-//  console.log(cubeNumber()); 
+ console.log(cubeNumber()); 
 
-// //  Задание 7
+//  Задание 7
 
-// function getCircleArea() {
-//     // ищем площадь круга
-//     return this.radius ** 2 * Math.PI;
-//  }
-//  function getCirclePerimeter() {
-//     // периметр окружности
-//     return this.radius * 2 * Math.PI;
-//  }
+function getCircleArea() {
+    // ищем площадь круга
+    return this.radius ** 2 * Math.PI;
+ }
+ function getCirclePerimeter() {
+    // периметр окружности
+    return this.radius * 2 * Math.PI;
+ }
  
-//  const circle1 = {
-//     radius: 10,
+ const circle1 = {
+    radius: 10,
   
  
-//     // Используем функции, объявленные выше, как методы объекта
-//     getArea: getCircleArea,
-//     getPerimeter: getCirclePerimeter,
-//  };
+    // Используем функции, объявленные выше, как методы объекта
+    getArea: getCircleArea,
+    getPerimeter: getCirclePerimeter,
+ };
  
-//  const circle2 = {
-//     radius: 20,
+ const circle2 = {
+    radius: 20,
  
  
-//     // Используем функции, объявленные выше, как методы объекта
-//     getArea: getCircleArea,
-//     getPerimeter: getCirclePerimeter,
-//  };
+    // Используем функции, объявленные выше, как методы объекта
+    getArea: getCircleArea,
+    getPerimeter: getCirclePerimeter,
+ };
  
-//  // Вызываем методы объектов
-//  console.log(circle1.getArea());
-//  console.log(circle1.getPerimeter());
-//  console.log(circle2.getArea());
-//  console.log(circle2.getPerimeter());
+ // Вызываем методы объектов
+ console.log(circle1.getArea());
+ console.log(circle1.getPerimeter());
+ console.log(circle2.getArea());
+ console.log(circle2.getPerimeter());
  
-//  ИГРА
 
-//  let num = prompt('Введите число');
-
-//  let randomNumber= Math.floor(Math.random()*100 + 1);
-
-
-//  function isCorrectGuess() {
-//     console.log(guess === randomNumber());
-//  }
-//  while (!isCorrectGuess(prompt('Попробуйте угадать число от 1 до 100'))) {
-//     if(guess === randomNumber) {
-//         console.log('Вы угадали!');
-//             }else if (guess > randomNumber) {
-//                 console.log('Вы ввели число больше');
-//             }
-//          }
-
-
-//     if(prompt('Загадонное число больше или меньше?') === 'блольше') {
-//         randomNumber = randomNumber > 50 ? randomNumber : randomNumber + 50;
-//     }else if (prompt('Загадонное число больше или меньше?') === 'меньше') {
-//         randomNumber = randomNumber < 50 ? randomNumber : randomNumber - 50;
-//     }
-//  }
-
-//  console.log('Вы угадали!' + randomNumber);
- 
-// let prNum = prompt('Введите число');
-// // let prNum, tempOut;
-// prNum = Math.floor ((Math.random() * 100) + 1);
-// // let num = 4;
-// // tempOut = document.getElementById ('temp-out');
-// // tempOut.innerHtml = prNum;
-
-// function f1() {
-//     let prNum = prompt('Введите число');
-//     let num = prNum;
-//     // let num = ;
-//     // let number = prompt('Введите число');
-//     // let num, out;
-
-//     // num = document.getElementById('mynum').value;
-//     // out = document.getElementById('out');
-
-//     if (num == prNum) {
-//         console.log('Вы угадали!');
-//     }
-
-//     else if (num > prNum) {
-//         console.log('Вы ввели число больше');
-//     }
-
-//     else {
-//         console.log('Вы ввели число меньше');
-//     }
-
-    
-// }
-
-// console.log(prNum);
-// // console.log(num);
-
-
-let input = document.querySelector(".field__form__input");
-let btn = document.querySelector(".field__form__btn");
-let check = document.querySelector(".result__check__out");
-// let help = document.querySelector(".result__help");
-// let count = document.querySelector(".result__count__out");
-
-// let item = 0;
-let randNum = Math.floor(Math.random() * 100) + 1;
-let userNum;
-
-btn.onclick = function (evt) {
-//   evt.preventDefault();
-  userNum = input.value;
-  console.log(userNum, randNum);
-  if (userNum > randNum) {  
-    check.textContent = "Пока что не угадали, загаданное число меньше";
-    // help.textContent = "Многовато будет";
-    // item++;
-    // count.textContent = item;
-  } else if (userNum < randNum) {
-    check.textContent = "Пока что не угадали, загаданное число больше";
-    // help.textContent = "Маловато будет";
-    // item++;
-    // count.textContent = item;
-  } else {
-    check.textContent = "Поздравляю! Вы угадали число";
-    // help.textContent = "В самый раз";
-    // item++;
-    // count.textContent = item;
-  }
-};
