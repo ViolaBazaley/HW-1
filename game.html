@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Игра: угадай число</title>
+    <link rel="stylesheet" href="game.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="canvas">
+        <div class="desc">
+          <h1 class="desc__title">Игра: угадай число</h1>
+          <p class="desc__subtitle">
+            Попробуйте отгадать число от 1 до 100
+          </p>
+        </div>
+        <div class="field">          
+          <input type="number" class="field__form__input" />
+          <button class="field__form__btn">Проверить</button>
+        </div>
+        <div class="result">
+          <div class="result__chec">
+            <span class="result__check__out"></span>
+          </div>
+          <div class="result__help">
+            <span class="result__help"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="game.js"></script>
+  </body>
+</html>

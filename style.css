@@ -256,6 +256,19 @@ body {
   padding-top: 61px;
 }
 
+.zoom-effect {
+  transition: transform 0.8s ease-in-out;
+}
+
+.zoom-effect:hover {
+  transform: scale(1.1);
+}
+
+.scroll {
+  height: 200px; /* Высота блока */
+  overflow-y: scroll; /* Включаем вертикальную прокрутку */
+}
+
 @media (max-width: 767px) {
   .center {
     padding-left: 16px;
