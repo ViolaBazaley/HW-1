@@ -148,6 +148,7 @@ body {
 .center {
   padding-left: calc(50% - 600px);
   padding-right: calc(50% - 600px);
+ hw-2
 }
 
 @media (max-width: 767px) {
@@ -188,3 +189,8 @@ body {
     background-position: 250px -80px;
   }
 }/*# sourceMappingURL=style.css.map */
+=======
+}/*# sourceMappingURL=style.css.map */
+
+/* пробую GITHUB */
+homework-1
