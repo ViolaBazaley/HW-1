@@ -505,5 +505,6 @@ function getCircleArea() {
  console.log(circle1.getPerimeter());
  console.log(circle2.getArea());
  console.log(circle2.getPerimeter());
- 
+
+
 

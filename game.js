@@ -1,25 +1,30 @@
 
-let input = document.querySelector(".field__form__input");
-let btn = document.querySelector(".field__form__btn");
-let check = document.querySelector(".result__check__out");
+function guessNumber() {
 
-let randNum = Math.floor(Math.random() * 100) + 1;
-let userNum;
+  const randomNumber = Math.floor(Math.random() * 100 + 1);
+  console.log(randomNumber);
+  let userNumber;
+  let counter = 1;
+  alert("Попрбуйте угадать случайное число от 1 до 100");
+  do {
+      
+      userNumber = Number(prompt('Введите любое число от 1 до 100'));
+      console.log(counter);
+      counter++;
 
-btn.onclick = function () {
-
-  userNum = input.value;
-  console.log(userNum, randNum);
-  if (userNum > randNum) {  
-    check.textContent = "Пока что не угадали, загаданное число меньше";
-
-} else if (userNum < randNum) {
-    check.textContent = "Пока что не угадали, загаданное число больше";
-
-} else  {
-    check.textContent = "Поздравляю! Вы угадали число";
-
-  }
+      if (userNumber > randomNumber) {
+          alert(`Ваше число больше чем загадано. Попробуйте ещё`);
 
 
-};
+      } else if (userNumber < randomNumber) {
+          alert(`Ваше число меньше чем загадано. Попробуйте ещё`);
+
+
+      } else {
+          alert(`Вы угадали. Спасибо за игру!`);
+          // alert(`Загаданное число: ${randomNumber}`);
+
+      }
+  } while (userNumber != randomNumber);
+
+}  
