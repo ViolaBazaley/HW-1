@@ -148,6 +148,7 @@ body {
 .center {
   padding-left: calc(50% - 600px);
   padding-right: calc(50% - 600px);
+ hw-2
 }
 
 .mini__games {
@@ -293,6 +294,14 @@ body {
     background-repeat: no-repeat;
     background-position: 250px -80px;
   }
+ homework-1
+}/*# sourceMappingURL=style.css.map */
+=======
+}/*# sourceMappingURL=style.css.map */
+
+/* пробую GITHUB */
+homework-1
+=======
   .mini__picture {
     order: 1;
   }
@@ -354,3 +363,4 @@ body {
     height: 55px;
   }
 }/*# sourceMappingURL=style.css.map */
+ hw-1
