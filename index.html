@@ -25,36 +25,36 @@
         <p class="games__paragraph">В моей коллекции представлено 6 игр на разные темы. Игры несложные — в них может поиграть каждый.<br> Все игры доступны для пользования.</p>
         <div class="game__catalog center">
             <div class="game__column">
-                <article class="game__box">
+                <article class="game__box zoom-effect">
                     <a href="#"><img src="./img/game1.png" class="game__img" alt=""></a>
                     <p class="game__number">Игра № 1</p>
                     <h3 class="game__header">Угадай число</h3>
                 </article>
-                <article class="game__box">
+                <article class="game__box zoom-effect">
                     <a href="#"><img src="./img/game4.png" class="game__img" alt=""></a>
                     <p class="game__number">Игра №4</p>
                     <h3 class="game__header">Камень, ножницы, <br>бумага</h3>
                 </article>
             </div>
             <div class="game__column">
-                <article class="game__box">
+                <article class="game__box zoom-effect">
                     <a href="#"><img src="./img/game2.png" class="game__img" alt=""></a>
                     <p class="game__number">Игра №2</p>
                     <h3 class="game__header">Простая арифметика</h3>
                 </article>
-                <article class="game__box">
+                <article class="game__box zoom-effect">
                     <a href="#"><img src="./img/game5.png" class="game__img" alt=""></a>
                     <p class="game__number">Игра №5</p>
                     <h3 class="game__header">Простая викторина</h3>
                 </article>
             </div>
             <div class="game__column">
-                <article class="game__box">
+                <article class="game__box zoom-effect">
                     <a href="#"><img src="./img/game3.png" class="game__img" alt=""></a>
                     <p class="game__number">Игра №3</p>
                     <h3 class="game__header">Переверни текст</h3>
                 </article>
-                <article class="game__box">
+                <article class="game__box zoom-effect">
                     <a href="#"><img src="./img/game6.png" class="game__img" alt=""></a>
                     <p class="game__number">Игра №6</p>
                     <h3 class="game__header">Генератор случайных цветов</h3>
@@ -66,5 +66,76 @@
         </div>    
 
     </section>
+    <section class="mini__games center">
+        <h2 class="mini__games_header">Мини-игры</h2>
+        <div class="mini__catalog center">
+            <article class="mini__numbergame">
+                <div class="mini__description">
+                    <h3 class="mini__header">Угадай число</h3>
+                    <p class="mini__paragraph">Попробуй угадать случайное число от 1 до 100.</p>
+                        <button onclick="guessNumber()"  class="mini__button">Играть!</button> 
+                </div>
+                <div class="mini__picture">
+                    <a href="#"><img src="./img/game1.png" class="mini__img" alt=""></a>
+                </div>
+            </article>
+            <article class="mini__numbergame">
+                <div class="mini__picture">
+                    <a href="#"><img src="./img/game2.png" class="mini__img" alt=""></a>
+                </div>
+                <div class="mini__description">
+                    <h3 class="mini__header">Простая арифметика</h3>
+                    <p class="mini__paragraph">Попробуй решить простые арифметические задачи.</p>
+                        <button class="mini__button">Играть!</button>
+                </div>
+            </article>
+            <article class="mini__numbergame">
+                <div class="mini__description">
+                    <h3 class="mini__header">Переверни текст</h3>
+                    <p class="mini__paragraph">Попробуй ввести текст, который будет перевернут.</p>
+                        <button class="mini__button">Играть!</button>
+                </div>
+                <div class="mini__picture">
+                    <a href="#"><img src="./img/game3.png" class="mini__img" alt=""></a>
+                </div>
+            </article>
+            <article class="mini__numbergame">
+                <div class="mini__picture">
+                    <a href="#"><img src="./img/game4.png" class="mini__img" alt=""></a>
+                </div>
+                <div class="mini__description">
+                    <h3 class="mini__header">Викторина</h3>
+                    <p class="mini__paragraph">Отвечай на вопросы викториныс вариантами ответов.</p>
+                        <button class="mini__button">Играть!</button>
+                </div>
+            </article>
+            <article class="mini__numbergame">
+                <div class="mini__description">
+                    <h3 class="mini__header">Камень, <br>ножницы, <br>бумага</h3>
+                    <p class="mini__paragraph">Сыграй в популярную игру против компьютера.</p>
+                        <button class="mini__button">Играть!</button>
+                </div>
+                <div class="mini__picture">
+                    <a href="#"><img src="./img/game5.png" class="mini__img" alt=""></a>
+                </div>
+            </article>
+            <article class="mini__numbergame">
+                <div class="mini__picture">
+                    <a href="#"><img src="./img/game6.png" class="mini__img" alt=""></a>
+                </div>
+                <div class="mini__description">
+                    <h3 class="mini__header">Генератор <br>случайных <br>цветов</h3>
+                    <p class="mini__paragraph">Игра, в которой при клике на кнопку <br>фон страницы меняется на случайный.</p>
+                        <button class="mini__button">Играть!</button>
+                </div>
+            </article>
+        </div>
+
+    </section>
+    <footer class="footer__games">
+        <p class="footer__text">Все права защищены.</p>
+    </footer>    
+    <script src="game.js"></script>
 </body>
+
 </html>

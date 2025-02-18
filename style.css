@@ -148,4 +148,222 @@ body {
 .center {
   padding-left: calc(50% - 600px);
   padding-right: calc(50% - 600px);
+}
+
+.mini__games {
+  background: rgb(32, 32, 39);
+  background-image: url(./img/Star6.png);
+  background-position: 1600px 155px;
+  background-size: auto;
+  background-repeat: no-repeat;
+  padding-bottom: 144px;
+}
+
+.mini__games_header {
+  color: rgb(255, 255, 255);
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 78px;
+  letter-spacing: 0px;
+  text-align: left;
+  padding-bottom: 72px;
+  padding-top: 96px;
+}
+
+.mini__catalog {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.mini__numbergame {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color: white;
+  border-radius: 30px;
+  margin-bottom: 32px;
+}
+
+.mini__header {
+  color: rgb(32, 32, 39);
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 59px;
+  letter-spacing: 0px;
+  text-align: left;
+  max-width: 504px;
+  padding-bottom: 24px;
+}
+
+.mini__paragraph {
+  color: rgb(32, 32, 39);
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0px;
+  text-align: left;
+  max-width: 497px;
+  padding-bottom: 36px;
+}
+
+.mini__button {
+  border-radius: 60px;
+  background: rgb(32, 32, 39);
+  color: rgb(255, 255, 255);
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 141.69%;
+  letter-spacing: 0%;
+  text-align: center;
+  width: 247px;
+  height: 66px;
+}
+
+.mini__button:hover {
+  box-sizing: border-box;
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 60px;
+  background: rgb(255, 255, 255);
+  color: rgb(32, 32, 39);
+}
+
+.mini__description {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding: 48px;
+  max-width: 600px;
+}
+
+.mini__img {
+  height: 100%;
+}
+
+.footer__games {
+  background: rgb(189, 237, 53);
+  height: 150px;
+}
+
+.footer__text {
+  color: rgb(0, 0, 0);
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 29px;
+  letter-spacing: 0px;
+  text-align: center;
+  padding-top: 61px;
+}
+
+.zoom-effect {
+  transition: transform 0.8s ease-in-out;
+}
+
+.zoom-effect:hover {
+  transform: scale(1.1);
+}
+
+.scroll {
+  height: 200px; /* Высота блока */
+  overflow-y: scroll; /* Включаем вертикальную прокрутку */
+}
+
+@media (max-width: 767px) {
+  .center {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .header__title {
+    font-size: 40px;
+    line-height: 49px;
+    text-align: center;
+  }
+  .games {
+    display: none;
+  }
+  .header__text {
+    color: rgb(32, 32, 39);
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+  }
+  .header__button {
+    font-size: 16px;
+    margin-top: 36px;
+    width: 285px;
+    height: 55px;
+    margin-left: 45px;
+    margin-bottom: 151px;
+  }
+  .header__ribbon {
+    height: 51px;
+  }
+  .header {
+    background: rgb(225, 255, 143);
+    background-image: url(./img/zvezdamobile.png);
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: 250px -80px;
+  }
+  .mini__picture {
+    order: 1;
+  }
+  .mini__description {
+    order: 2;
+  }
+  .mini__header {
+    color: rgb(32, 32, 39);
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 39px;
+    letter-spacing: 0px;
+    text-align: left;
+  }
+  .mini__paragraph {
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0px;
+    text-align: left;
+  }
+  .mini__description {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 48px;
+    max-width: 600px;
+  }
+  .mini__img {
+    max-height: 326px;
+  }
+  .mini__games_header {
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 49px;
+    letter-spacing: 0px;
+    text-align: left;
+  }
+  .mini__games {
+    padding-bottom: 48px;
+  }
+  .footer__games {
+    height: 100px;
+  }
+  .footer__text {
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0px;
+    text-align: center;
+    padding-top: 40px;
+  }
+  .mini__button {
+    font-size: 16px;
+    width: 285px;
+    height: 55px;
+  }
 }/*# sourceMappingURL=style.css.map */
