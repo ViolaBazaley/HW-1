@@ -300,7 +300,7 @@ a {
     background-repeat: no-repeat;
     background-position: 250px -80px;
   }
-  hw-5 .mini__picture {
+  .mini__picture {
     order: 1;
   }
   .mini__description {
