@@ -15,21 +15,23 @@
         <div class="header__box ">
             <h1 class="header__title">Добро пожаловать <br> на мой сайт мини-игр</h1>
             <p class="header__text">Тебе предстоит пройти несколько увлекательных игр. <br> Если готов, нажимай <b>«Поехали!»</b> и <b>приступай.</b></p>
-            <button class="header__button">Поехали!</button>            
+            <a href="#about-games" class="header__button">Поехали!</a>            
         </div>
         
     </section>
     <div class="header__ribbon"></div>
-    <section class="games center">
+    <section id="about-games" class="games center">
         <h2 class="games__header">Об играх</h2>
         <p class="games__paragraph">В моей коллекции представлено 6 игр на разные темы. Игры несложные — в них может поиграть каждый.<br> Все игры доступны для пользования.</p>
         <div class="game__catalog center">
             <div class="game__column">
-                <article class="game__box zoom-effect">
-                    <a href="#"><img src="./img/game1.png" class="game__img" alt=""></a>
-                    <p class="game__number">Игра № 1</p>
-                    <h3 class="game__header">Угадай число</h3>
-                </article>
+                <a href="#number-game">
+                    <article class="game__box zoom-effect">
+                        <img src="./img/game1.png" class="game__img" alt="">
+                        <p class="game__number">Игра № 1</p>
+                        <h3 class="game__header">Угадай число</h3>
+                    </article>
+                </a>
                 <article class="game__box zoom-effect">
                     <a href="#"><img src="./img/game4.png" class="game__img" alt=""></a>
                     <p class="game__number">Игра №4</p>
@@ -68,7 +70,7 @@
     <section class="mini__games center">
         <h2 class="mini__games_header">Мини-игры</h2>
         <div class="mini__catalog center">
-            <article class="mini__numbergame">
+            <article id="number-game" class="mini__numbergame">
                 <div class="mini__description">
                     <h3 class="mini__header">Угадай число</h3>
                     <p class="mini__paragraph">Попробуй угадать случайное число от 1 до 100.</p>

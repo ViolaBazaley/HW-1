@@ -8,12 +8,17 @@ body {
     font-family: "Montserrat", sans-serif;
 }
 
+a {
+    text-decoration: none;
+}
+
 .header {
     background: rgb(225, 255, 143);
     background-image: url(./img/zvezda2.png);
     background-position: calc(50% + 270px) calc(50% - 125px);
     background-size: auto;
     background-repeat: no-repeat;
+    padding-bottom: 187px;
 
 
     &__box {
@@ -41,12 +46,14 @@ body {
     }
 
     &__button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
         color: rgb(255, 255, 255);
         font-size: 24px;
         font-weight: 600;
         line-height: 141.69%;
         letter-spacing: 0%;
-        text-align: center;  
         margin-top: 48px;
         box-sizing: border-box;
         border: 1px solid rgb(32, 32, 39);
@@ -54,7 +61,7 @@ body {
         background: rgb(32, 32, 39);
         width: 247px;
         height: 66px;
-        margin-bottom: 187px;
+        text-decoration: none;
     }
 
     &__button:hover {
