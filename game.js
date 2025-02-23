@@ -3,13 +3,13 @@ function guessNumber() {
 
   const randomNumber = Math.floor(Math.random() * 100 + 1);
   console.log(randomNumber);
-  let userNumber;
+  let userNumber = 0;
   let counter = 1;
   alert("Попрбуйте угадать случайное число от 1 до 100");
   do {
       
       userNumber = Number(prompt('Введите любое число от 1 до 100'));
-      console.log(counter);
+      console.log(userNumber);
       counter++;
 
       if (userNumber > randomNumber) {
@@ -25,6 +25,6 @@ function guessNumber() {
           // alert(`Загаданное число: ${randomNumber}`);
 
       }
-  } while (userNumber != randomNumber);
+  } while (userNumber !== randomNumber);
 
 }  
