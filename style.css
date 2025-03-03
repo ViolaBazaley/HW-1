@@ -56,20 +56,11 @@ a {
   width: 247px;
   height: 66px;
   text-decoration: none;
+  margin-bottom: 187px;
 }
 .header__button:hover {
-  box-sizing: border-box;
-  border: 1px solid rgb(0, 0, 0);
-  border-radius: 60px;
   background: white;
   color: rgb(0, 0, 0);
-  font-family: Montserrat;
-  font-size: 24px;
-  font-weight: 600;
-  line-height: 141.69%;
-  letter-spacing: 0%;
-  text-align: center;
-  margin-bottom: 187px;
 }
 .header__ribbon {
   height: 90px;

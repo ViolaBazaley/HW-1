@@ -17,10 +17,13 @@ for (let i = 0; i < arr.length; i++) {
 // в этом массиве.
 
 const arrNumber = [1, 5, 4, 10, 0, 3];
-arrNumber.forEach ((el, index) => {
-        if (el === 4)
-            console.log(`${index}`);
-})
+console.log(arrNumber.indexOf(4));
+
+
+// arrNumber.forEach ((el, index) => {
+//         if (el === 4)
+//             console.log(`${index}`);
+// })
 
 //вариант 2
 // for (let i = 0; i < arrNumber.length; i++) {
@@ -75,8 +78,8 @@ console.log(arr3);
 // [9, 8, 7, 'a', 6, 5] С помощью метода sort отсортируйте массив и удалите букву 
 // 'a' из массива. Затем выведите массив.
 
-const arr4 = [9, 8, 7, 'a', 6, 5];
-arr4.sort ();
+const arr4 = [11, 9, 8, 7, 'a', 6, 5];
+arr4.sort ((a,b) => a - b);
 arr4.pop();
 console.log(arr4);
 
@@ -209,9 +212,9 @@ console.log(NegativeNumber);
 // Используйте цикл для генерации исходного массива и метод 
 // filter()
 //  для создания массива с четными числами.
-// function randomNumber() {
-// return Math.floor(Math.random() * 10);
-// }
+function randomNumber() {
+return Math.floor(Math.random() * 10);
+}
 
 const arrRandom = [];
 
